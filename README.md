@@ -21,7 +21,7 @@ run for hetting image results in "results/"
 
 installation process:
 1. add images in data/input/noisy/ (if not create one)
-2. pretained model = model_zoo
-3. model file = model.py
+2. pretained model = `model_zoo`
+3. model file = `36_Pureformer.py`
 4. download "36_Pureformer.ckpt" from releases and put it dir `model_zoo`
 5. options for managing pretained_model path, input image path, output_path are given from line no. 160 in test_demo.py

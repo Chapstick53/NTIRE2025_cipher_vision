@@ -1,4 +1,7 @@
-# NTIRE
+# NTIRE2025
+## Pureformer: Transformer-Based Image Denoising
+![image](https://github.com/user-attachments/assets/b5d55bcb-aadd-41a5-8f6e-1ddd49f16853)
+
 install the env the conda env:
 
 ```conda env create -f nr_pf.yml```

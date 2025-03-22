@@ -1,0 +1,10 @@
+tqdm==4.67.1
+numpy==1.24.4
+torch==2.0.1+cu118 --extra-index-url https://download.pytorch.org/whl/cu118
+pillow==10.3.0
+torchvision==0.15.2+cu118 --extra-index-url https://download.pytorch.org/whl/cu118
+scikit-image==0.22.0
+scikit-video==1.1.10
+matplotlib==3.8.3
+einops==0.8.0
+lightning==1.9.5

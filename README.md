@@ -1,6 +1,6 @@
 # NTIRE2025
 ## Pureformer: Transformer-Based Image Denoising
-#### Proposed Pureformer encoder-decoder architecture for image denoising. The input noisy image is processed through a multi-level encoder, a feature enhancer block, and a multi-level decoder. Each encoder and decoder level employs xN transformer blocks~\cite{zamir2022restormer}, consisting of Multi-Dconv Head Transposed Attention (MDTA) and Gated-Dconv Feed-Forward Network (GDFN) blocks. The feature enhancer block, placed in the latent space, expands the receptive field using a spatial filter bank. The multi-scale features are then concatenated and refined through xN transformer blocks to enhance feature correlation and merge multi-scale information effectively.
+#### Proposed Pureformer encoder-decoder architecture for image denoising. The input noisy image is processed through a multi-level encoder, a feature enhancer block, and a multi-level decoder. Each encoder and decoder level employs xN transformer blocks, consisting of Multi-Dconv Head Transposed Attention (MDTA) and Gated-Dconv Feed-Forward Network (GDFN) blocks. The feature enhancer block, placed in the latent space, expands the receptive field using a spatial filter bank. The multi-scale features are then concatenated and refined through xN transformer blocks to enhance feature correlation and merge multi-scale information effectively.
 ![image](https://github.com/user-attachments/assets/b5d55bcb-aadd-41a5-8f6e-1ddd49f16853)
 
 install the env the conda env:

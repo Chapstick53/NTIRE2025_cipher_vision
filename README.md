@@ -16,7 +16,7 @@ run for hetting image results in "results/"
 ```python test_demo.py```
 
 installation process:
-1. add images in data/input/noisy/
+1. add images in data/input/noisy/ (if not create one)
 2. pretained model = model_zoo
 3. model file = model.py
 4. download "36_pureformer.ckpt" from releases and put it dir `model_zoo`

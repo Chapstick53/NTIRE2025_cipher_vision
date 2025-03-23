@@ -27,7 +27,7 @@ run requiements:
  
 ``` pip install -r requirements.txt --no_deps ``` 
 
-run for hetting image results in "results/"
+run for getting image results in "results/"
 
 ```python test_demo.py```
 

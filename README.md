@@ -3,6 +3,10 @@
 #### Proposed Pureformer encoder-decoder architecture for image denoising. The input noisy image is processed through a multi-level encoder, a feature enhancer block, and a multi-level decoder. Each encoder and decoder level employs xN transformer blocks, consisting of Multi-Dconv Head Transposed Attention (MDTA) and Gated-Dconv Feed-Forward Network (GDFN) blocks. The feature enhancer block, placed in the latent space, expands the receptive field using a spatial filter bank. The multi-scale features are then concatenated and refined through xN transformer blocks to enhance feature correlation and merge multi-scale information effectively.
 ![image](https://github.com/user-attachments/assets/b5d55bcb-aadd-41a5-8f6e-1ddd49f16853)
 
+go to the dir NTIRE2025_cipher_vision
+
+``` cd NTIRE2025_cipher_vision/```
+
 install the env the conda env:
 
 ```conda env create -f nr_pf.yml```
@@ -11,9 +15,13 @@ activate it using:
 
 ```conda activate nr_pf.env```
 
+run this command first:
+
+```pip install torch==2.0.1+cu118 torchvision==0.15.2+cu118 --extra-index-url https://download.pytorch.org/whl/cu118```
+
 run requiements:
  
-``` pip install -r requirements.txt ``` 
+``` pip install -r requirements.txt --no_deps ``` 
 
 run for hetting image results in "results/"
 

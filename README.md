@@ -27,7 +27,7 @@ run for hetting image results in "results/"
 
 ```python test_demo.py```
 
-installation process:
+## installation process:
 1. add images in data/input/noisy/ (if not create one)
 2. pretained model = `model_zoo`
 3. model file = `36_Pureformer.py`
